@@ -20,7 +20,7 @@ class SequentialChi2:
         self.classifier.fit(X_partial_normalized,y_partial)
         print("Training is done!")
         # Feature ranking for each class
-        num_classes = np.max(y_train)
+        num_classes = np.max(y_train) + 1
         feature_scores = []
         print("Feature scores training ...")
         for c in range(num_classes):
