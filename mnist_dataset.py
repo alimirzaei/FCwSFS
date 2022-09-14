@@ -8,6 +8,6 @@ chi2 = SequentialChi2()
 
 chi2.train(X_train=X_train.reshape(X_train.shape[0], -1), y_train=y_train)
 
-accuracy = chi2.test(X_test=X_test.reshape(X_test.shape[0], -1), y_test=y_test, max_features= 10)
+accuracy = chi2.test(X_test=X_test.reshape(X_test.shape[0], -1), y_test=y_test, max_features= 70)
 
 print("Accuracy = ", accuracy)
