@@ -40,7 +40,7 @@ class SequentialChi2:
             for i in range(max_features+1):
                 observed_x = x_.copy()
                 observed_x[mask==0] = 0
-                normalized = self.scaler.transform(observed_x)
+                normalized = self.scaler.transform([np.hstack([observed_x, mask])])
                 logits = self.classifier.predict_proba(normalized)
                 
                 next_feature = np.argmax(logits.dot(temp_feature_scores))
