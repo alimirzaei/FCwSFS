@@ -11,7 +11,7 @@ class SequentialChi2:
         self.classifier = MLPClassifier(alpha=1, max_iter=1000)
         self.scaler = StandardScaler()
 
-    def train(self, X_train, y_train, max_selected_features_percent=0.1, N=10000):
+    def train(self, X_train, y_train, max_selected_features_percent=0.3, N=100000):
         (X_partial, y_partial, _) = get_partial_zeros(X_train, y_train, max_selected_features_percent=max_selected_features_percent, N=N)
         self.scaler.fit(X_partial)
         X_partial_normalized = self.scaler.transform(X_partial)
