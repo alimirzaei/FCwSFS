@@ -1,4 +1,6 @@
 import numpy as np
+from sklearn.utils import shuffle
+
 
 # function for generating cube dataset
 
@@ -26,7 +28,11 @@ def get_syntethic_dataset(N=100, features=[2, 0, 1, 3, 4], percents=[30, 25, 20,
     y_class = np.full(class_samples_num, index)
     X_total.append(X_calss)
     y_total.append(y_class)
-  return np.vstack(X_total), np.hstack(y_total)
+  X = np.vstack(X_total)
+  y = np.hstack(y_total)
+  X_shuffled, y_shuffled = shuffle(X, y, random_state=42)
+
+  return X_shuffled, y_shuffled
 
 
 if __name__ == "__main__":
