@@ -15,6 +15,18 @@ def gen_cube(n_features=20, data_points=20000, sigma=0.1, seed=123):
             features[i, offset + j] = points[i, j]
     return features, labels
 
+def get_syntethic_dataset(N=100, features=[2, 0, 1, 3, 4], percents=[30, 25, 20, 15, 10], num_features= 10):
+  X_total = []
+  y_total = []
+  for index, p in enumerate(percents):
+    class_samples_num = int(N*p/100) 
+    X_calss = np.random.randint(0, 2, (class_samples_num, num_features))
+    X_calss[:,features[:index]] = 0
+    X_calss[:,features[index]] = 1
+    y_class = np.full(class_samples_num, index)
+    X_total.append(X_calss)
+    y_total.append(y_class)
+  return np.vstack(X_total), np.hstack(y_total)
 
 
 if __name__ == "__main__":
