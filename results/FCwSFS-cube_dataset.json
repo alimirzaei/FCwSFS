@@ -1,0 +1,183 @@
+{
+    "train": [
+        {
+            "time": 0.0026128292083740234,
+            "num_samples": 5000,
+            "num_features": 20,
+            "num_classes": 8
+        }
+    ],
+    "test": [
+        {
+            "max_features": 1,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 1.0,
+            "average_test_for_each_sample": 0.005096976757049561,
+            "accuracy": 0.21
+        },
+        {
+            "max_features": 2,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 2.0,
+            "average_test_for_each_sample": 0.009439013004302978,
+            "accuracy": 0.37
+        },
+        {
+            "max_features": 3,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 2.99,
+            "average_test_for_each_sample": 0.011940650939941407,
+            "accuracy": 0.49
+        },
+        {
+            "max_features": 4,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 3.95,
+            "average_test_for_each_sample": 0.014486157894134521,
+            "accuracy": 0.57
+        },
+        {
+            "max_features": 5,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 4.87,
+            "average_test_for_each_sample": 0.017509105205535887,
+            "accuracy": 0.63
+        },
+        {
+            "max_features": 6,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 5.67,
+            "average_test_for_each_sample": 0.019147765636444092,
+            "accuracy": 0.72
+        },
+        {
+            "max_features": 7,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 6.39,
+            "average_test_for_each_sample": 0.02098390579223633,
+            "accuracy": 0.79
+        },
+        {
+            "max_features": 8,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 7.0,
+            "average_test_for_each_sample": 0.023573422431945802,
+            "accuracy": 0.85
+        },
+        {
+            "max_features": 9,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 7.51,
+            "average_test_for_each_sample": 0.023802506923675536,
+            "accuracy": 0.86
+        },
+        {
+            "max_features": 10,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 7.91,
+            "average_test_for_each_sample": 0.03126161813735962,
+            "accuracy": 0.88
+        },
+        {
+            "max_features": 11,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 8.26,
+            "average_test_for_each_sample": 0.026804678440093994,
+            "accuracy": 0.88
+        },
+        {
+            "max_features": 12,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 8.61,
+            "average_test_for_each_sample": 0.025655581951141357,
+            "accuracy": 0.87
+        },
+        {
+            "max_features": 13,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 8.94,
+            "average_test_for_each_sample": 0.027144160270690918,
+            "accuracy": 0.87
+        },
+        {
+            "max_features": 14,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 9.24,
+            "average_test_for_each_sample": 0.026774187088012696,
+            "accuracy": 0.84
+        },
+        {
+            "max_features": 15,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 9.51,
+            "average_test_for_each_sample": 0.0282416033744812,
+            "accuracy": 0.81
+        },
+        {
+            "max_features": 16,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 9.71,
+            "average_test_for_each_sample": 0.027227203845977783,
+            "accuracy": 0.77
+        },
+        {
+            "max_features": 17,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 9.85,
+            "average_test_for_each_sample": 0.02795468330383301,
+            "accuracy": 0.76
+        },
+        {
+            "max_features": 18,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 9.93,
+            "average_test_for_each_sample": 0.028764986991882326,
+            "accuracy": 0.77
+        },
+        {
+            "max_features": 19,
+            "certainty_threshold": 0.4,
+            "num_samples": 100,
+            "num_all_features": 20,
+            "avg_selected_features": 9.99,
+            "average_test_for_each_sample": 0.02984816312789917,
+            "accuracy": 0.77
+        }
+    ]
+}

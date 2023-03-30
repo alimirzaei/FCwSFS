@@ -1,0 +1,242 @@
+{
+    "train": [
+        {
+            "time": 0.02445220947265625,
+            "num_samples": 1000,
+            "num_features": 784,
+            "num_classes": 10
+        }
+    ],
+    "test": [
+        {
+            "max_features": 1,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 1.0,
+            "average_test_for_each_sample": 0.013958206176757812,
+            "accuracy": 0.23,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                1,
+                6,
+                1,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 11,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 9.89,
+            "average_test_for_each_sample": 0.05159722328186035,
+            "accuracy": 0.5,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 21,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 17.89,
+            "average_test_for_each_sample": 0.07354063510894776,
+            "accuracy": 0.52,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 31,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 25.89,
+            "average_test_for_each_sample": 0.07636037111282348,
+            "accuracy": 0.52,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 41,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 33.89,
+            "average_test_for_each_sample": 0.08680930376052856,
+            "accuracy": 0.52,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 51,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 41.89,
+            "average_test_for_each_sample": 0.09005142450332641,
+            "accuracy": 0.52,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 61,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 49.89,
+            "average_test_for_each_sample": 0.09947839260101318,
+            "accuracy": 0.52,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 71,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 57.89,
+            "average_test_for_each_sample": 0.11326030254364014,
+            "accuracy": 0.52,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 81,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 65.89,
+            "average_test_for_each_sample": 0.11828920364379883,
+            "accuracy": 0.52,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        },
+        {
+            "max_features": 91,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 784,
+            "avg_selected_features": 73.89,
+            "average_test_for_each_sample": 0.12660061120986937,
+            "accuracy": 0.52,
+            "y_test_sample": [
+                8,
+                4,
+                8,
+                7,
+                7
+            ],
+            "y_predicted_sample": [
+                8,
+                3,
+                5,
+                7,
+                7
+            ]
+        }
+    ]
+}

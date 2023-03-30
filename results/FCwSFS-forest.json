@@ -1,0 +1,357 @@
+{
+    "train": [
+        {
+            "time": 0.0014503002166748047,
+            "num_samples": 1000,
+            "num_features": 54,
+            "num_classes": 7
+        }
+    ],
+    "test": [
+        {
+            "max_features": 1,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 1.0,
+            "average_test_for_each_sample": 0.002614157199859619,
+            "accuracy": 0.57,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 3,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 3.0,
+            "average_test_for_each_sample": 0.0076377344131469726,
+            "accuracy": 0.56,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 5,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 5.0,
+            "average_test_for_each_sample": 0.01265387773513794,
+            "accuracy": 0.6,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 7,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 7.0,
+            "average_test_for_each_sample": 0.016230485439300536,
+            "accuracy": 0.62,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 9,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 8.96,
+            "average_test_for_each_sample": 0.02201258420944214,
+            "accuracy": 0.65,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 11,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 10.92,
+            "average_test_for_each_sample": 0.02670018672943115,
+            "accuracy": 0.65,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 13,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 12.88,
+            "average_test_for_each_sample": 0.03033867835998535,
+            "accuracy": 0.64,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 15,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 14.84,
+            "average_test_for_each_sample": 0.032597672939300534,
+            "accuracy": 0.67,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 17,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 16.8,
+            "average_test_for_each_sample": 0.038958213329315185,
+            "accuracy": 0.71,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 19,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 18.76,
+            "average_test_for_each_sample": 0.040101118087768554,
+            "accuracy": 0.72,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 21,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 20.72,
+            "average_test_for_each_sample": 0.04353948831558228,
+            "accuracy": 0.72,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 23,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 22.68,
+            "average_test_for_each_sample": 0.04750204563140869,
+            "accuracy": 0.72,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 25,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 24.64,
+            "average_test_for_each_sample": 0.05181214570999146,
+            "accuracy": 0.69,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 27,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 26.59,
+            "average_test_for_each_sample": 0.05433616399765015,
+            "accuracy": 0.72,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "max_features": 29,
+            "certainty_threshold": 1,
+            "num_samples": 100,
+            "num_all_features": 54,
+            "avg_selected_features": 28.53,
+            "average_test_for_each_sample": 0.06188663482666015,
+            "accuracy": 0.69,
+            "y_test_sample": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "y_predicted_sample": [
+                7,
+                2,
+                2,
+                2,
+                2
+            ]
+        }
+    ]
+}

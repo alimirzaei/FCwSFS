@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.utils import shuffle
+from sklearn.datasets import fetch_openml
 
 
 # function for generating cube dataset
@@ -12,7 +13,7 @@ def gen_cube(n_features=20, data_points=20000, sigma=0.1, seed=123):
     points = clean_points + np.random.normal(0, sigma, (data_points, 3))
     features = np.random.rand(data_points, n_features)
     for i in range(data_points):
-        offset = labels[i];
+        offset = labels[i]
         for j in range(3):
             features[i, offset + j] = points[i, j]
     return features, labels
@@ -33,6 +34,10 @@ def get_syntethic_dataset(N=100, features=[2, 0, 1, 3, 4], percents=[30, 25, 20,
   X_shuffled, y_shuffled = shuffle(X, y, random_state=42)
 
   return X_shuffled, y_shuffled
+
+def get_mnist():
+   mnist = fetch_openml('mnist_784', version=1)
+   return mnist.data, mnist.target
 
 
 if __name__ == "__main__":

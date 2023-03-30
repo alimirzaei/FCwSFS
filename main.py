@@ -14,8 +14,7 @@ model = FCwSFS(distance_threshold=0.3)
 
 model.fit(X_train=X_train, y_train=y_train)
 
-y_pred, features = model.predict(X_test, max_features=10, certainty_threshold=0.8)
-print("ACCURACY", np.sum(y_pred == y_test) / len(y_test))
-print("y_pred", y_pred)
-print("y_pred", y_test)
-print("features", features)
+for f in range(1,10):
+    y_pred, features, result = model.evaluate(X_test, y_test, max_features=f, certainty_threshold=0.8)
+    
+model.save_results("results/FCwSFS-syntethic_dataset.json")
